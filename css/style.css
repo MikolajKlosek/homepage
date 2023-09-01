@@ -1,0 +1,149 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.mainHeader {
+    color: rgb(0, 0, 0);
+    border: 16px double rgb(152, 213, 152);
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 71px 33px rgba(75, 221, 168, 0.48);
+    margin-bottom: 80px;
+    text-shadow: 1px 2px 5px #6d5858;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.body {
+    max-width: 1000px;
+    background-color: #ddd;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.navigation {
+    margin: auto;
+}
+
+.navigation__Item {
+    margin: 7px 0;
+}
+
+.dark {
+    background-color: grey;
+}
+
+.location {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.location__header {
+    text-align: center;
+    text-shadow: 1px 2px 5px #6d5858;
+}
+
+.artist {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.artist__header {
+    text-align: center;
+    text-shadow: 1px 2px 5px #6d5858;
+}
+
+.artist__list {
+    padding-left: 50px;
+}
+
+.artist__Item {
+    margin: 7px 0;
+}
+
+.tickets {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.tickets__header {
+    text-align: center;
+    text-shadow: 1px 2px 5px #6d5858;
+}
+
+.tickets__table {
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    width: 80%;
+    overflow-x: auto;
+}
+
+.tickets__caption {
+    text-align: left;
+    caption-side: bottom;
+}
+
+.tickets__tableCell {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tickets__tableRow:nth-child(even) {
+    background: rgb(221, 154, 154);
+}
+
+.tickets__tableRow:hover {
+    background: rgb(172, 122, 122);
+}
+
+.information {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.information__Item {
+    margin: 7px 0;
+}
+
+.information__list {
+    padding-left: 50px;
+}
+
+.information__header {
+    text-align: center;
+    text-shadow: 1px 2px 5px #6d5858;
+}
+
+.link {
+    color: rgba(229, 91, 91, 0.738);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.link:visited {
+    color: darkred;
+}
+
+.link:hover {
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: crimson;
+}
+
+.button {
+    margin: 0 40%;
+}
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+}
