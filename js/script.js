@@ -20,6 +20,7 @@
 
         welcome();
     }
+    
     init();
 
 }
